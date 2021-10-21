@@ -47,8 +47,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 500px;
-    align-items: stretch;
+    
+    align-items: center;
     text-align: center;
 
     > img {
@@ -91,13 +91,13 @@
   }
 
   .create-room {
-    margin-top: 64px;
     height: 50px;
     border-radius: 8px;
     font-weight: 500;
     background: #ea4335;
     color: #FFF;
     padding: 0 10px;
+    margin: 64px auto 0 auto;
     
     
     display: flex;
